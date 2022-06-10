@@ -1,0 +1,11 @@
+.storyContent {
+  display: flex;
+  flex-direction: column;
+  row-gap: 4rem;
+}
+
+.paragraph {
+  font-size: var(--font-size-1);
+  letter-spacing: 0.015em;
+  line-height: 140%;
+}

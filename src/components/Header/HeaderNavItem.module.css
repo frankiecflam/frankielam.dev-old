@@ -1,5 +1,5 @@
 .navItem {
   font-size: inherit;
   text-transform: capitalize;
-  color: var(--font-color-light-1);
+  color: inherit;
 }

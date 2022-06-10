@@ -1,0 +1,72 @@
+.home {
+  height: 100vh;
+}
+
+.homeContent {
+  margin-top: 10rem;
+  width: 100%;
+}
+
+.heading {
+  font-size: var(--font-size-6);
+  font-weight: 700;
+  letter-spacing: -0.015em;
+}
+
+.subHeading {
+  font-size: var(--font-size-4);
+  font-weight: 500;
+  color: var(--font-color-light-1);
+  letter-spacing: -0.005em;
+}
+
+.description {
+  margin: 3rem 0;
+  font-size: var(--font-size-2);
+  color: var(--font-color-light-2);
+  line-height: 120%;
+  letter-spacing: 0.015em;
+}
+
+.cta {
+  display: flex;
+  column-gap: 5rem;
+}
+
+.ctaItem {
+  position: relative;
+  font-size: var(--font-size-2);
+  color: var(--font-color-light-2);
+  transition: all 0.3s;
+  letter-spacing: 0.015em;
+}
+
+.ctaItem::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 0.25rem;
+  background-color: currentColor;
+}
+
+.ctaItem:hover {
+  color: var(--font-color-main);
+}
+
+.ctaItem::first-letter {
+  text-transform: uppercase;
+}
+
+@media only screen and (min-width: 62em) {
+  .homeContent {
+    width: 80%;
+  }
+}
+
+@media only screen and (min-width: 75em) {
+  .homeContent {
+    width: 70%;
+  }
+}

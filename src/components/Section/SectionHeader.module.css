@@ -1,0 +1,23 @@
+.header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 8rem;
+}
+
+.heading {
+  text-transform: uppercase;
+  color: var(--font-color-light-3);
+  font-weight: 500;
+  font-size: var(--font-size-1);
+}
+
+.subHeading {
+  color: var(--font-color-light-1);
+  font-weight: 700;
+  font-size: var(--font-size-3);
+}
+
+.subHeading::first-letter {
+  text-transform: uppercase;
+}
