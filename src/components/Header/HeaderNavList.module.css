@@ -1,0 +1,30 @@
+.navList {
+  list-style: none;
+  display: none;
+  font-size: var(--font-size-1);
+  position: relative;
+  z-index: 999;
+}
+
+@media only screen and (min-width: 62em) {
+  .navList {
+    display: flex;
+    column-gap: 5rem;
+  }
+}
+
+@media only screen and (max-width: 61.99em) {
+  .active.navList {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    row-gap: 5rem;
+    font-size: var(--font-size-3);
+  }
+}

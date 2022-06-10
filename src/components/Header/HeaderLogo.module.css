@@ -1,0 +1,10 @@
+.navBrand {
+  position: relative;
+  z-index: 9999;
+}
+
+.logo {
+  height: 5rem;
+  width: 5rem;
+  aspect-ratio: 1 / 1;
+}

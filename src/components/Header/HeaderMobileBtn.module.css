@@ -1,0 +1,56 @@
+.mobileNav {
+  height: 5rem;
+  width: 5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  z-index: 9999;
+}
+
+.mobileBtn {
+  display: block;
+  position: relative;
+  background-color: var(--font-color-light-1);
+  width: 3rem;
+  height: 0.25rem;
+  transition: all 0.4s ease-out;
+}
+
+.mobileBtn::before,
+.mobileBtn::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: var(--font-color-light-1);
+  transition: all 0.4s ease-out;
+}
+
+.mobileBtn::before {
+  transform: translateY(-0.75rem);
+}
+
+.mobileBtn::after {
+  transform: translateY(0.75rem);
+}
+
+.active .mobileBtn {
+  background-color: transparent;
+}
+
+.active .mobileBtn::before {
+  transform: rotate(-135deg);
+}
+
+.active .mobileBtn::after {
+  transform: rotate(135deg);
+}
+
+@media only screen and (min-width: 62em) {
+  .mobileNav {
+    display: none;
+  }
+}
