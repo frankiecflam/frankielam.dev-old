@@ -1,3 +1,8 @@
 .section {
-  padding-top: 12rem; /* header height*/
+  padding-top: 6rem;
+  padding-bottom: 6rem;
+}
+
+.section:first-child {
+  padding-top: 12rem;
 }

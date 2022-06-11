@@ -1,4 +1,5 @@
 .storyContent {
+  margin-top: 8rem;
   display: flex;
   flex-direction: column;
   row-gap: 4rem;

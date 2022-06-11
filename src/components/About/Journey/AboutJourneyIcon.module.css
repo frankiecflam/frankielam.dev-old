@@ -1,0 +1,4 @@
+.icon > svg {
+  font-size: var(--font-size-2);
+  fill: var(--font-color-light-2);
+}

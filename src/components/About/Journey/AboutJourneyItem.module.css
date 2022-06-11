@@ -1,0 +1,74 @@
+.journeyItem {
+  width: 80%;
+  display: grid;
+  column-gap: 2rem;
+}
+
+.dot {
+  width: 2rem;
+  height: 2rem;
+  background-color: var(--font-color-light-3);
+  border-radius: 100%;
+}
+
+.dot.start {
+  width: 2.5rem;
+  height: 2.5rem;
+  background-color: var(--color-dominant);
+}
+
+/* For non-desktop viewers */
+@media only screen and (max-width: 48em) {
+  .journeyItem {
+    margin: 0 auto;
+    z-index: 1;
+    grid-template-columns: 1fr;
+    row-gap: 1rem;
+    justify-items: center;
+    text-align: center;
+    background-color: var(--background-color);
+  }
+
+  .journeyItem > :last-child {
+    margin-bottom: 3rem;
+  }
+
+  .dot.start {
+    display: none;
+  }
+}
+
+/* For desktop viewers */
+@media only screen and (min-width: 48em) {
+  .journeyItem {
+    width: 50%;
+  }
+
+  .toRight.journeyItem {
+    margin-left: auto;
+    grid-template-columns: auto auto 1fr;
+  }
+
+  .toLeft.journeyItem {
+    margin-right: auto;
+    grid-template-columns: 1fr auto auto;
+  }
+
+  .toRight.journeyItem > .dot {
+    transform: translateX(-50%);
+  }
+
+  .toLeft.journeyItem > .dot {
+    transform: translateX(50%);
+    order: 3;
+  }
+
+  .toLeft.journeyItem > :nth-child(2) {
+    order: 2;
+  }
+
+  .toLeft.journeyItem > :nth-child(3) p,
+  .toLeft.journeyItem > :nth-child(3) h1 {
+    text-align: right;
+  }
+}

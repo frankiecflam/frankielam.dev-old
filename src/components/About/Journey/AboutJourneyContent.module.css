@@ -1,0 +1,10 @@
+.journeyContent {
+  margin-top: 15rem;
+}
+
+.journeyItems {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  row-gap: 30rem;
+}

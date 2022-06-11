@@ -1,0 +1,25 @@
+.continue {
+  margin-top: 18rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  row-gap: 2rem;
+}
+
+.dot {
+  width: 2rem;
+  height: 2rem;
+  background-color: var(--color-dominant-light-2);
+  border-radius: 100%;
+}
+
+.continueText {
+  font-size: var(--font-size-2);
+  color: var(--font-color-light-1);
+  font-weight: 600;
+  letter-spacing: 0.015em;
+}
+
+.continueText::first-letter {
+  text-transform: uppercase;
+}

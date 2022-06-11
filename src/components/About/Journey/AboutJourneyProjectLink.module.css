@@ -1,0 +1,14 @@
+.projectLink:link,
+.projectLink:visited {
+  color: var(--font-color-light-3);
+  border-bottom: 2px solid currentColor;
+  transition: all 0.4s;
+}
+
+.projectLink:hover {
+  color: var(--font-color-light-1);
+}
+
+.projectLink::first-letter {
+  text-transform: uppercase;
+}

@@ -12,6 +12,13 @@
   --color-dominant-light-1: #657eb1;
   --color-dominant-light-2: #8fa1c6;
 
+  --color-white: #fff;
+
+  --color-cta-primary: #475e8d;
+  --color-cta-secondary: #abb9d5;
+
+  --color-box-shadow: 25, 20, 30;
+
   /* Font-size */
   --font-size-base: 1.6rem;
   --font-size-1: 2rem;

@@ -1,0 +1,9 @@
+.timeline {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  width: 0.3rem;
+  height: calc(100% + 15rem);
+  transform: translateX(-50%);
+  background-color: var(--font-color-light-3);
+}
