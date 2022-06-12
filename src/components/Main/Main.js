@@ -1,11 +1,10 @@
-import styles from "./Main.module.css";
 import Container from "../UI/Container";
 import Home from "../Home/Home";
 import About from "../About/About";
 
 const Main = () => {
   return (
-    <main className={styles.main}>
+    <main>
       <Container>
         <Home />
         <About />

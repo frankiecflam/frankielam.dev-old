@@ -36,6 +36,11 @@
   .dot.start {
     display: none;
   }
+
+  .dot.start + div > svg {
+    fill: var(--color-dominant);
+    font-size: var(--font-size-3);
+  }
 }
 
 /* For desktop viewers */

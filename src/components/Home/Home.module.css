@@ -37,7 +37,7 @@
 .ctaOR {
   height: 6rem;
   width: 0.15rem;
-  background-color: var(--font-color-light-3);
+  background-color: var(--color-vertical-divider);
 }
 
 .ctaItem:link,
@@ -50,6 +50,9 @@
   border-radius: 1rem;
   box-shadow: 0 1rem 2rem 0 rgba(var(--color-box-shadow), 0.2);
   transition: all 0.4s;
+
+  position: relative;
+  overflow: hidden;
 }
 
 .ctaItem:hover {
@@ -72,6 +75,90 @@
 
 .ctaItem.things {
   background-color: var(--color-cta-secondary);
+}
+
+/* ctaItem Hovering effects */
+.ctaItem.projects::after,
+.ctaItem.things::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 0%;
+  height: 100%;
+  transition: all 0.4s ease-out;
+  z-index: -1;
+}
+
+.ctaItem.projects::after {
+  background: linear-gradient(
+    135deg,
+    hsla(220, 33%, 42%, 1) 20%,
+    hsla(339, 100%, 55%, 1) 90%
+  );
+}
+
+.ctaItem.things::after {
+  background: linear-gradient(
+    135deg,
+    hsla(339, 100%, 55%, 1) 10%,
+    hsla(220, 33%, 75%, 1) 85%
+  );
+}
+
+.ctaItem.projects:hover::after,
+.ctaItem.things:hover::after {
+  width: 100%;
+}
+
+/* Mouse scrolling down for better UX */
+.scrollDown {
+  display: none;
+}
+
+@media only screen and (min-width: 48em) {
+  .scrollDown {
+    position: relative;
+    display: block;
+    position: absolute;
+    bottom: 6%;
+    left: 50%;
+    width: 2rem;
+    height: 3rem;
+    border: 2px solid var(--font-color-light-3);
+    border-radius: 2.5rem;
+    transform: translateX(-50%);
+  }
+
+  .scrollDown::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 0.5rem;
+    height: 0.5rem;
+    background-color: var(--font-color-light-1);
+    border-radius: 100%;
+    animation: upDown 1.75s infinite ease-out;
+  }
+
+  @keyframes upDown {
+    0% {
+      transform: translate(-50%, 0%);
+    }
+
+    25% {
+      transform: translate(-50%, -0.5rem);
+    }
+
+    50% {
+      transform: translate(-50%, 0.35rem);
+    }
+
+    100% {
+      transform: translate(-50%, 0%);
+    }
+  }
 }
 
 @media only screen and (min-width: 62em) {

@@ -6,9 +6,7 @@ const Hero = () => {
     <Section className={styles.home} id="home">
       <div className={styles.homeContent}>
         <h1 className={styles.heading}>Hi, I am Frankie Lam.</h1>
-        <h2 className={styles.subHeading}>
-          I build interactive digital experiences.
-        </h2>
+        <h2 className={styles.subHeading}>I build simple things with code.</h2>
         <p className={styles.description}>
           I am a self-taught web developer based in London. I enjoy building
           things that live on the internet through curioristy and perservance.
@@ -25,6 +23,7 @@ const Hero = () => {
             things about me
           </a>
         </div>
+        <div className={styles.scrollDown} />
       </div>
     </Section>
   );

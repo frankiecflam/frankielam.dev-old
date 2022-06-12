@@ -3,6 +3,12 @@
   padding-bottom: 6rem;
 }
 
-.section:first-child {
-  padding-top: 12rem;
+.section:last-child {
+  padding-bottom: 12rem;
+}
+
+@media only screen and (min-width: 48em) {
+  .section:first-child {
+    padding-top: 12rem;
+  }
 }
