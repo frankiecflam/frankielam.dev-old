@@ -1,0 +1,21 @@
+.footerMessage {
+  order: 1;
+}
+
+.message {
+  font-size: var(--font-size-base);
+  color: var(--font-color-light-1);
+  text-align: center;
+}
+
+@media only screen and (min-width: 62em) {
+  .footerMessage {
+    order: -1;
+    text-align: left;
+  }
+
+  .message {
+    color: var(--font-color-main);
+    font-size: var(--font-size-1);
+  }
+}

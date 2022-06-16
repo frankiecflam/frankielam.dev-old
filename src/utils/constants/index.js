@@ -18,3 +18,6 @@ export const BookmarkGitHubURL =
 
 // Email
 export const Email = "frankiechunfai@gmail.com";
+export const Facebook = "https://www.facebook.com/frankiecflam/";
+export const Instagram = "https://www.instagram.com/frankie___lam/";
+export const Github = "https://github.com/frankiecflam";
