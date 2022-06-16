@@ -23,4 +23,5 @@
   color: var(--font-color-light-1);
   font-weight: 600;
   letter-spacing: 0.015em;
+  max-width: 50rem;
 }

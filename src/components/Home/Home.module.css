@@ -30,85 +30,27 @@
 
 .cta {
   display: flex;
-  column-gap: 3rem;
+  column-gap: 5rem;
   align-items: center;
-}
-
-.ctaOR {
-  height: 6rem;
-  width: 0.15rem;
-  background-color: var(--color-vertical-divider);
 }
 
 .ctaItem:link,
 .ctaItem:visited {
   font-size: var(--font-size-2);
-  color: var(--color-white);
+  color: var(--font-color-light-1);
   transition: all 0.3s;
   letter-spacing: 0.015em;
   padding: 1rem 2rem;
   border-radius: 1rem;
-  box-shadow: 0 1rem 2rem 0 rgba(var(--color-box-shadow), 0.2);
+
   transition: all 0.4s;
 
   position: relative;
   overflow: hidden;
 }
 
-.ctaItem:hover {
-  transform: translateY(-0.5rem);
-  box-shadow: 0 1.5rem 2.5rem 0 rgba(var(--color-box-shadow), 0.3);
-}
-
-.ctaItem:active {
-  transform: translateY(0rem);
-  box-shadow: 0 1rem 2rem 0 rgba(var(--color-box-shadow), 0.2);
-}
-
 .ctaItem::first-letter {
   text-transform: uppercase;
-}
-
-.ctaItem.projects {
-  background-color: var(--color-cta-primary);
-}
-
-.ctaItem.things {
-  background-color: var(--color-cta-secondary);
-}
-
-/* ctaItem Hovering effects */
-.ctaItem.projects::after,
-.ctaItem.things::after {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 0%;
-  height: 100%;
-  transition: all 0.4s ease-out;
-  z-index: -1;
-}
-
-.ctaItem.projects::after {
-  background: linear-gradient(
-    135deg,
-    hsla(220, 33%, 42%, 1) 20%,
-    hsla(339, 100%, 55%, 1) 90%
-  );
-}
-
-.ctaItem.things::after {
-  background: linear-gradient(
-    135deg,
-    hsla(339, 100%, 55%, 1) 10%,
-    hsla(220, 33%, 75%, 1) 85%
-  );
-}
-
-.ctaItem.projects:hover::after,
-.ctaItem.things:hover::after {
-  width: 100%;
 }
 
 /* Mouse scrolling down for better UX */
@@ -170,5 +112,12 @@
 @media only screen and (min-width: 75em) {
   .homeContent {
     width: 75%;
+  }
+}
+
+@media only screen and (min-width: 87.5em) {
+  .homeContent {
+    width: 60%;
+    margin-left: 15rem;
   }
 }

@@ -9,8 +9,8 @@ const HeaderNavList = ({ mobileNavActive }) => {
       }
     >
       <HeaderNavItem name="home" location="/" />
-      <HeaderNavItem name="about" location="/about" />
       <HeaderNavItem name="projects" location="/projects" />
+      <HeaderNavItem name="about" location="/about" />
       <HeaderNavItem name="contact" location="/contact" />
     </ul>
   );

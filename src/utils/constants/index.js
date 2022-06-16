@@ -1,6 +1,20 @@
+// Website URLs
 export const EasybankURL = "https://frankie-easybank.netlify.app/";
 export const BookmarkURL = "https://frankie-bookmark.netlify.app/";
 export const SunnysideURL = "https://frankie-sunnyside.netlify.app/";
 export const ManageURL = "https://frankie-manage.netlify.app/";
 export const ZestyBurgersURL = "https://zestyburgers.netlify.app/";
 export const HiddenGemsURL = "https://next-hidden-gems.vercel.app/";
+
+// GitHub URLs
+export const HiddenGemsGitHubURL =
+  "https://github.com/frankiecflam/next-hidden-gems";
+export const ZestyBurgersGitHubURL =
+  "https://github.com/frankiecflam/react-zesty-burgers";
+export const ManageGitHubURL =
+  "https://github.com/frankiecflam/manage-landing-page";
+export const BookmarkGitHubURL =
+  "https://github.com/frankiecflam/bookmark-landing-page";
+
+// Email
+export const Email = "frankiechunfai@gmail.com";

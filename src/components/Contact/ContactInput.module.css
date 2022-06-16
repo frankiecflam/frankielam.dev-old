@@ -1,0 +1,78 @@
+.inputGroup {
+  position: relative;
+  display: flex;
+}
+
+.input {
+  flex: 1 0 100%;
+  border: none;
+  padding: 1rem 2rem;
+  font-family: inherit;
+  color: var(--font-color-light-1);
+}
+
+.placeholder {
+  position: absolute;
+  top: -1.5rem;
+  left: 2rem;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: var(--font-color-light-2);
+  font-weight: 700;
+  font-size: var(--font-size-xs);
+}
+
+.inputGroup::before,
+.inputGroup::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  height: 0.3rem;
+}
+
+.inputGroup::before {
+  width: 100%;
+  background-color: var(--color-input-border-bottom);
+}
+
+.inputGroup::after {
+  width: 0;
+  background-color: var(--font-color-light-1);
+  transition: all 0.3s;
+}
+
+.input:focus {
+  outline: none;
+}
+
+.active.inputGroup::after {
+  width: 100%;
+}
+
+.inputFeedback {
+  position: absolute;
+  top: 50%;
+  right: 5%;
+  transform: translateY(-50%);
+
+  display: flex;
+}
+
+.inputFeedback.textareaInputFeedback {
+  top: 10%;
+}
+
+.inputFeedbackIcon {
+  font-size: var(--font-size-base);
+  fill: var(--color-input-feedback-exclamation-mark);
+}
+
+.inputFeedbackIcon {
+  opacity: 0;
+  transition: all 0.3s;
+}
+
+.incorrect .inputFeedbackIcon {
+  opacity: 1;
+}

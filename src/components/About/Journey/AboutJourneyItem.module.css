@@ -17,8 +17,12 @@
   background-color: var(--color-dominant);
 }
 
+.toLeft.journeyItem h1 {
+  margin-left: auto;
+}
+
 /* For non-desktop viewers */
-@media only screen and (max-width: 48em) {
+@media only screen and (max-width: 47.99em) {
   .journeyItem {
     margin: 0 auto;
     z-index: 1;
@@ -30,7 +34,7 @@
   }
 
   .journeyItem > :last-child {
-    margin-bottom: 3rem;
+    margin-bottom: 6rem;
   }
 
   .dot.start {

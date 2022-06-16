@@ -1,0 +1,16 @@
+.btn {
+  border: none;
+  box-shadow: 0 1rem 2rem 0 rgba(0, 0, 0, 0.2);
+  transition: all 0.4s;
+  border-radius: 10px;
+}
+
+.btn:hover {
+  transform: translateY(-0.5rem);
+  box-shadow: 0 1.5rem 2.5rem 0 rgba(0, 0, 0, 0.3);
+}
+
+.btn:active {
+  transform: translateY(0rem);
+  box-shadow: 0 1rem 2rem 0 rgba(0, 0, 0, 0.2);
+}

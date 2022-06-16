@@ -1,0 +1,17 @@
+.btn[type="submit"] {
+  margin-top: 3rem;
+  align-self: center;
+  padding: 1.5rem 3rem;
+  background-color: var(--font-color-light-3);
+  color: var(--color-white);
+  font-weight: 600;
+  letter-spacing: 0.015em;
+  text-transform: capitalize;
+  font-size: var(--font-size-1);
+}
+
+.btn[type="submit"]:hover,
+.btn[type="submit"]:active {
+  background-color: var(--background-color-lightgrey);
+  color: var(--font-color-light-3);
+}

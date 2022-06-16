@@ -20,3 +20,9 @@
     width: 65%;
   }
 }
+
+@media only screen and (min-width: 87.5em) {
+  .story {
+    width: 55%;
+  }
+}

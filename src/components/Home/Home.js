@@ -18,7 +18,6 @@ const Hero = () => {
           >
             my projects
           </a>
-          <div className={styles.ctaOR} />
           <a href="#about" className={`${styles.ctaItem} ${styles.things}`}>
             things about me
           </a>

@@ -18,9 +18,25 @@
   --color-cta-secondary: #abb9d5;
 
   --color-box-shadow: 25, 20, 30;
-  --color-vertical-divider: #eeeeef;
+
+  --color-project-item-light: #ededed;
+  --color-project-item-light-footer-divider: #dcdcdc;
+  --color-project-item-light-font-color-main: #0f141e;
+  --color-project-item-light-font-color-light-1: #72767a;
+
+  --color-project-item-dark: #555555;
+  --color-project-item-dark-font-color-main: #fff;
+  --color-project-item-dark-font-color-light-1: #c8c8c8;
+  --color-project-item-dark-footer-divier: #666666;
+
+  --color-project-item-new-outer-border: #dbdbdb;
+
+  --color-input-border-bottom: #cbcbcb;
+
+  --color-input-feedback-exclamation-mark: #a4161a;
 
   /* Font-size */
+  --font-size-xs: 1.2rem;
   --font-size-base: 1.6rem;
   --font-size-1: 2rem;
   --font-size-2: 2.5rem;

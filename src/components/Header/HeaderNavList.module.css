@@ -2,7 +2,7 @@
   list-style: none;
   display: none;
   font-size: var(--font-size-1);
-  color: var(--font-color-light-1);
+  color: var(--font-color-light-3);
   position: relative;
   z-index: 999;
 }

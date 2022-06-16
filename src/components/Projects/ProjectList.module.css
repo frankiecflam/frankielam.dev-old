@@ -1,0 +1,32 @@
+.projectList {
+  list-style: none;
+
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 5rem;
+}
+
+@media only screen and (max-width: 87.49em) {
+  .projectList > :nth-child(odd) {
+    background-color: var(--color-project-item-light);
+  }
+
+  .projectList > :nth-child(even) {
+    background-color: var(--color-project-item-dark);
+  }
+}
+
+@media only screen and (min-width: 87.5em) {
+  .projectList {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .projectList > :nth-child(4n + 1),
+  .projectList > :nth-child(4n + 4) {
+    background-color: var(--color-project-item-light);
+  }
+
+  .projectList > li {
+    background-color: var(--color-project-item-dark);
+  }
+}

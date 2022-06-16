@@ -8,3 +8,4 @@ export { FaSass as SassIcon } from "react-icons/fa";
 export { BsBootstrapFill as BootstrapIcon } from "react-icons/bs";
 export { FaReact as ReactIcon } from "react-icons/fa";
 export { IoIosBuild as BuildIcon } from "react-icons/io";
+export { AiOutlineExclamationCircle as ExclamationMarkIcon } from "react-icons/ai";
