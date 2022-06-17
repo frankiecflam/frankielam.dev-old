@@ -103,15 +103,28 @@
   border: 0.5rem solid var(--color-project-item-new-outer-border);
 }
 
-.projectItem:first-child:hover .new::before {
-  color: var(--font-color-main);
-  font-weight: 600;
+@media (hover: none) {
+  .projectItem:first-child .new::before {
+    color: var(--font-color-main);
+    font-weight: 600;
+  }
+
+  .projectItem:first-child .new::after {
+    border-top-color: var(--font-color-main);
+  }
 }
 
-.projectItem:first-child:hover .new::after {
-  border-top-color: var(--font-color-main);
+@media (hover: hover) {
+  .projectItem:first-child:hover .new::before {
+    color: var(--font-color-main);
+    font-weight: 600;
+  }
 
-  animation: rotate 0.75s ease-out;
+  .projectItem:first-child:hover .new::after {
+    border-top-color: var(--font-color-main);
+
+    animation: rotate 0.75s ease-out;
+  }
 }
 
 @keyframes rotate {

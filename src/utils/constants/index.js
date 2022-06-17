@@ -23,5 +23,5 @@ export const Instagram = "https://www.instagram.com/frankie___lam/";
 export const Github = "https://github.com/frankiecflam";
 
 // Scroll
-export const ScrollIntoViewDuration = 1000;
+export const ScrollIntoViewDuration = 800;
 export const ScrollDelayOnMobileNav = 200;
