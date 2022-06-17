@@ -9,9 +9,14 @@ const HeaderNav = () => {
     setMobileNavActive((prevState) => !prevState);
   };
 
+  const handleCloseMobileNav = () => setMobileNavActive(false);
+
   return (
     <nav>
-      <HeaderNavList mobileNavActive={mobileNavActive} />
+      <HeaderNavList
+        mobileNavActive={mobileNavActive}
+        onClick={handleCloseMobileNav}
+      />
       <HeaderMobileBtn
         onClick={handleMobileBtnToggle}
         mobileNavActive={mobileNavActive}

@@ -1,6 +1,7 @@
 .navBrand {
   position: relative;
   z-index: 9999;
+  cursor: pointer;
 }
 
 .logo {

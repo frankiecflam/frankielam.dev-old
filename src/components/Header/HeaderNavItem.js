@@ -1,15 +1,26 @@
 import styles from "./HeaderNavItem.module.css";
+import { Link } from "react-scroll";
+import {
+  ScrollIntoViewDuration,
+  ScrollDelayOnMobileNav,
+} from "../../utils/constants/index";
 
-const HeaderNavItem = ({ name, location }) => {
-  const handleNavLinkClick = (e) => {
-    e.preventDefault();
-  };
-
+const HeaderNavItem = ({ name, location, onClick, mobileNavActive }) => {
   return (
     <li className={styles.navItem}>
-      <a href={location} onClick={handleNavLinkClick}>
+      <Link
+        to={location}
+        smooth={true}
+        hashSpy={true}
+        spy={true}
+        duration={ScrollIntoViewDuration}
+        className={styles.navLink}
+        onClick={onClick}
+        delay={mobileNavActive ? ScrollDelayOnMobileNav : 0}
+        activeClass={`${styles.navLink} ${styles.navLinkActive}`}
+      >
         {name}
-      </a>
+      </Link>
     </li>
   );
 };

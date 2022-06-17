@@ -13,26 +13,32 @@
   --color-dominant-light-2: #8fa1c6;
 
   --color-white: #fff;
-
+  /* Cta */
   --color-cta-primary: #475e8d;
-  --color-cta-secondary: #abb9d5;
+  --color-cta-secondary: #8fa1c6;
 
+  /* NavLink */
+  --color-nav-link-desktop: #878a8e;
+  --color-nav-link-hover-desktop: #0f141e;
+  --color-nav-link-mobile: #878a8e;
+  --color-nav-link-hover-mobile: #fff;
+
+  /* Box Shadow */
   --color-box-shadow: 25, 20, 30;
 
+  /* Project Item */
   --color-project-item-light: #ededed;
   --color-project-item-light-footer-divider: #dcdcdc;
   --color-project-item-light-font-color-main: #0f141e;
   --color-project-item-light-font-color-light-1: #72767a;
-
   --color-project-item-dark: #555555;
   --color-project-item-dark-font-color-main: #fff;
   --color-project-item-dark-font-color-light-1: #c8c8c8;
   --color-project-item-dark-footer-divier: #666666;
-
   --color-project-item-new-outer-border: #dbdbdb;
 
+  /* Input */
   --color-input-border-bottom: #cbcbcb;
-
   --color-input-feedback-exclamation-mark: #a4161a;
 
   /* Font-size */

@@ -1,20 +1,31 @@
 .home {
-  min-height: 100vh;
+  height: 100vh;
+  display: flex;
+  align-items: center;
 }
 
 .homeContent {
-  margin-top: 10rem;
   width: 100%;
 }
 
 .heading {
-  font-size: var(--font-size-7);
+  font-size: var(--font-size-6);
   font-weight: 700;
   letter-spacing: -0.015em;
+  display: flex;
+  flex-direction: column;
+}
+
+.headingHi {
+  font-size: var(--font-size-2);
+}
+
+.headingName {
+  font-size: var(--font-size-5);
 }
 
 .subHeading {
-  font-size: var(--font-size-4);
+  font-size: var(--font-size-3);
   font-weight: 500;
   color: var(--font-color-light-1);
   letter-spacing: -0.005em;
@@ -22,7 +33,7 @@
 
 .description {
   margin: 3rem 0 6rem 0;
-  font-size: var(--font-size-2);
+  font-size: var(--font-size-1);
   color: var(--font-color-light-2);
   line-height: 120%;
   letter-spacing: 0.015em;
@@ -30,27 +41,43 @@
 
 .cta {
   display: flex;
-  column-gap: 5rem;
-  align-items: center;
+  flex-direction: column;
+  row-gap: 2.5rem;
 }
 
-.ctaItem:link,
-.ctaItem:visited {
-  font-size: var(--font-size-2);
-  color: var(--font-color-light-1);
+.ctaItem {
+  font-size: var(--font-size-1);
+  text-align: center;
   transition: all 0.3s;
   letter-spacing: 0.015em;
   padding: 1rem 2rem;
   border-radius: 1rem;
-
   transition: all 0.4s;
-
-  position: relative;
-  overflow: hidden;
+  box-shadow: 0 1rem 2rem 0 rgba(var(--color-box-shadow), 0.1);
+  text-transform: capitalize;
+  cursor: pointer;
 }
 
-.ctaItem::first-letter {
-  text-transform: uppercase;
+.ctaItem.projects {
+  color: var(--color-white);
+  background-color: var(--color-cta-primary);
+  border: 3px solid var(--color-cta-primary);
+}
+
+.ctaItem.things {
+  border: 3px solid var(--color-cta-secondary);
+}
+
+.ctaItem.projects:hover,
+.ctaItem.things:hover {
+  transform: translateY(-0.5rem);
+  box-shadow: 0 1.5rem 2.5rem 0 rgba(var(--color-box-shadow), 0.25);
+}
+
+.ctaItem.projects:active,
+.ctaItem.things:active {
+  transform: translateY(0rem);
+  box-shadow: 0 1rem 2rem 0 rgba(var(--color-box-shadow), 0.1);
 }
 
 /* Mouse scrolling down for better UX */
@@ -58,11 +85,45 @@
   display: none;
 }
 
+@media only screen and (min-width: 24.375em) {
+  .headingName {
+    font-size: var(--font-size-6);
+  }
+
+  .subHeading {
+    font-size: var(--font-size-4);
+  }
+}
+
+@media only screen and (min-width: 36em) {
+  .cta {
+    flex-direction: row;
+    column-gap: 5rem;
+  }
+}
+
 @media only screen and (min-width: 48em) {
+  .heading {
+    display: block;
+    font-size: var(--font-size-7);
+  }
+
+  .headingHi {
+    font-size: inherit;
+  }
+
+  .description {
+    font-size: var(--font-size-2);
+  }
+
+  .ctaItem {
+    font-size: var(--font-size-2);
+  }
+
   .scrollDown {
-    position: relative;
     display: block;
     position: absolute;
+    cursor: pointer;
     bottom: 6%;
     left: 50%;
     width: 2rem;

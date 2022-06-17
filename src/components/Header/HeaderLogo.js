@@ -1,11 +1,19 @@
 import styles from "./HeaderLogo.module.css";
 import { WebsiteLogo } from "../../assets/Images/index";
+import { Link } from "react-scroll";
+import { ScrollIntoViewDuration } from "../../utils/constants/index";
 
 const HeaderLogo = () => {
   return (
-    <a href="/" className={styles.navBrand}>
+    <Link
+      to="home"
+      smooth={true}
+      hashSpy={true}
+      duration={ScrollIntoViewDuration}
+      className={styles.navBrand}
+    >
       <img src={WebsiteLogo} alt="website logo" className={styles.logo} />
-    </a>
+    </Link>
   );
 };
 

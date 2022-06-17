@@ -3,3 +3,37 @@
   text-transform: capitalize;
   color: inherit;
 }
+
+.navLink {
+  position: relative;
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+.navLink::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 0%;
+  height: 0.3rem;
+  background-color: currentColor;
+  transition: 0.3s;
+}
+
+.navLink:hover,
+.navLink.navLinkActive {
+  color: var(--color-nav-link-hover-mobile);
+}
+
+.navLink:hover::after,
+.navLink.navLinkActive::after {
+  width: 100%;
+}
+
+@media only screen and (min-width: 62em) {
+  .navLink:hover,
+  .navLink.navLinkActive {
+    color: var(--color-nav-link-hover-desktop);
+  }
+}

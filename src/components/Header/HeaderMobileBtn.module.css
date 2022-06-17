@@ -11,7 +11,7 @@
 .mobileBtn {
   display: block;
   position: relative;
-  background-color: var(--font-color-light-1);
+  background-color: transparent;
   width: 3rem;
   height: 0.25rem;
   transition: all 0.4s ease-out;
@@ -30,15 +30,16 @@
 }
 
 .mobileBtn::before {
-  transform: translateY(-0.75rem);
+  transform: translateY(-0.5rem);
 }
 
 .mobileBtn::after {
-  transform: translateY(0.75rem);
+  transform: translateY(0.5rem);
 }
 
-.active .mobileBtn {
-  background-color: transparent;
+.active .mobileBtn::before,
+.active .mobileBtn::after {
+  background-color: var(--background-color-lightgrey);
 }
 
 .active .mobileBtn::before {

@@ -1,17 +1,38 @@
 import styles from "./HeaderNavList.module.css";
 import HeaderNavItem from "./HeaderNavItem";
 
-const HeaderNavList = ({ mobileNavActive }) => {
+const HeaderNavList = ({ mobileNavActive, onClick }) => {
   return (
     <ul
       className={
         mobileNavActive ? `${styles.navList} ${styles.active}` : styles.navList
       }
+      onClick={onClick}
     >
-      <HeaderNavItem name="home" location="/" />
-      <HeaderNavItem name="projects" location="/projects" />
-      <HeaderNavItem name="about" location="/about" />
-      <HeaderNavItem name="contact" location="/contact" />
+      <HeaderNavItem
+        name="home"
+        location="home"
+        onClick={onClick}
+        mobileNavActive={mobileNavActive}
+      />
+      <HeaderNavItem
+        name="projects"
+        location="projects"
+        onClick={onClick}
+        mobileNavActive={mobileNavActive}
+      />
+      <HeaderNavItem
+        name="about"
+        location="about"
+        onClick={onClick}
+        mobileNavActive={mobileNavActive}
+      />
+      <HeaderNavItem
+        name="contact"
+        location="contact"
+        onClick={onClick}
+        mobileNavActive={mobileNavActive}
+      />
     </ul>
   );
 };

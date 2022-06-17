@@ -6,9 +6,3 @@
 .section:last-child {
   padding-bottom: 24rem;
 }
-
-@media only screen and (min-width: 48em) {
-  .section:first-child {
-    padding-top: 12rem;
-  }
-}
