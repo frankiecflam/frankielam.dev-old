@@ -7,6 +7,34 @@
   row-gap: 5rem;
 }
 
+.required {
+  opacity: 0;
+  visibility: hidden;
+  align-self: flex-end;
+  margin-top: -3rem;
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  column-gap: 1rem;
+  padding-right: 1rem;
+  transition: all 0.3s;
+}
+
+.required.requiredActive {
+  opacity: 1;
+  visibility: visible;
+}
+
+.requiredIcon {
+  font-size: var(--font-size-base);
+  fill: var(--color-input-feedback-exclamation-mark);
+}
+
+.requiredText {
+  font-size: var(--font-size-base);
+  color: var(--font-color-light-2);
+}
+
 .formSubmittedFeedback {
   margin-top: -2rem;
   align-self: center;

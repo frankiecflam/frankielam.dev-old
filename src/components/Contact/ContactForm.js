@@ -3,6 +3,7 @@ import ContactInput from "./ContactInput";
 import ContactSubmitBtn from "./ContactSubmitBtn";
 import useInput from "../../hooks/useInput";
 import { useState } from "react";
+import { ExclamationMarkIcon } from "../../assets/Icons/index";
 
 function emailAuthentication(email) {
   return email.trim().length > 0 && email.trim().includes("@");
@@ -112,10 +113,20 @@ const ContactForm = () => {
         onBlur={messageOnBlur}
         isFormSubmitted={isFormSubmitted}
       />
+      <div
+        className={
+          !formValidity && isFormSubmitted
+            ? `${styles.required} ${styles.requiredActive}`
+            : styles.required
+        }
+      >
+        <ExclamationMarkIcon className={styles.requiredIcon} />
+        <p className={styles.requiredText}>required</p>
+      </div>
       <ContactSubmitBtn />
       {isFormSuccessfullySubmitted && (
         <p className={styles.formSubmittedFeedback}>
-          Your message has been sent. I will get back to you ASAP.
+          Thank you for your message. I will get back to you ASAP.
         </p>
       )}
     </form>

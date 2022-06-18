@@ -53,7 +53,7 @@
 .inputFeedback {
   position: absolute;
   top: 50%;
-  right: 5%;
+  right: 1rem;
   transform: translateY(-50%);
 
   display: flex;
