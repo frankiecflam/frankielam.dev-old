@@ -17,8 +17,8 @@ import {
 const AboutJourneyContent = () => {
   return (
     <div className={styles.journeyContent}>
+      <AboutJourneyTimeline />
       <div className={styles.journeyItems}>
-        <AboutJourneyTimeline />
         <JourneyStart toRight={true} />
         <JourneyCS toRight={false} />
         <JourneyWeb toRight={true} />

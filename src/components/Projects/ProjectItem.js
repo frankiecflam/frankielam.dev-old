@@ -1,6 +1,7 @@
 import styles from "./ProjectItem.module.css";
 import { BuildIcon } from "../../assets/Icons/index";
 import AnchorTag from "../UI/AnchorTag";
+import { motion } from "framer-motion";
 
 const ProjectItem = ({
   date,
@@ -11,7 +12,13 @@ const ProjectItem = ({
   builtWith,
 }) => {
   return (
-    <li className={styles.projectItem}>
+    <motion.li
+      className={styles.projectItem}
+      initial={{ y: "10rem", opacity: 0 }}
+      whileInView={{ y: 0, opacity: 1 }}
+      viewport={{ once: true }}
+      transition={{ duration: 1 }}
+    >
       <header className={styles.header}>
         <p className={styles.date}>{date}</p>
         <h1 className={styles.title}>{title}</h1>
@@ -36,7 +43,7 @@ const ProjectItem = ({
           <p className={styles.buildText}>Built with {builtWith}.</p>
         </div>
       </footer>
-    </li>
+    </motion.li>
   );
 };
 

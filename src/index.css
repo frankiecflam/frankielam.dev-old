@@ -41,6 +41,9 @@
   --color-input-border-bottom: #cbcbcb;
   --color-input-feedback-exclamation-mark: #a4161a;
 
+  /* Preloader */
+  --background-color-preloader: #0f141e;
+
   /* Font-size */
   --font-size-xs: 1.2rem;
   --font-size-base: 1.6rem;

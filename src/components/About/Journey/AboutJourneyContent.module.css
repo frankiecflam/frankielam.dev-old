@@ -1,4 +1,5 @@
 .journeyContent {
+  position: relative;
   margin-top: 15rem;
 }
 
@@ -7,4 +8,5 @@
   display: flex;
   flex-direction: column;
   row-gap: 30rem;
+  overflow: hidden;
 }

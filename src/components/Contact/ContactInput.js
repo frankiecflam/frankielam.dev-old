@@ -1,5 +1,6 @@
 import styles from "./ContactInput.module.css";
 import { ExclamationMarkIcon } from "../../assets/Icons/index";
+import { motion } from "framer-motion";
 
 const ContactInput = ({
   type,
@@ -24,12 +25,20 @@ const ContactInput = ({
     : "";
 
   return (
-    <div
+    <motion.div
       className={
         inputFocused
           ? `${styles.inputGroup} ${styles.active}`
           : styles.inputGroup
       }
+      initial={{ x: "-10rem", opacity: 0 }}
+      whileInView={{ x: 0, opacity: 1 }}
+      viewport={{ once: true, margin: "-15%" }}
+      transition={{
+        duration: 0.5,
+        type: "spring",
+        stiffness: 100,
+      }}
     >
       <label htmlFor={placeholder} className={styles.placeholder}>
         {placeholder}
@@ -62,7 +71,7 @@ const ContactInput = ({
       <div className={inputFeedbackClasses}>
         <ExclamationMarkIcon className={styles.inputFeedbackIcon} />
       </div>
-    </div>
+    </motion.div>
   );
 };
 

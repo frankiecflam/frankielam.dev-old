@@ -1,8 +1,15 @@
 import styles from "./AboutStoryContent.module.css";
+import { motion } from "framer-motion";
 
 const AboutStoryContent = () => {
   return (
-    <div className={styles.storyContent}>
+    <motion.div
+      className={styles.storyContent}
+      initial={{ y: "10rem" }}
+      whileInView={{ y: 0 }}
+      viewport={{ once: true }}
+      transition={{ duration: 1, ease: "easeOut" }}
+    >
       <p className={styles.paragraph}>
         I’m Frankie, a self-taught web developer based in London. My journey as
         a self-taught programmer started in May 2021 when I decided to take back
@@ -48,7 +55,7 @@ const AboutStoryContent = () => {
       <p className={styles.paragraph}>
         Because of programming, I feel happy living my life everyday.
       </p>
-    </div>
+    </motion.div>
   );
 };
 
