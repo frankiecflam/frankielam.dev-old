@@ -23,7 +23,7 @@ const JourneyBootstrap = ({ toRight }) => {
           </AboutJourneyProjectLink>{" "}
           , with it.
         </h1>
-        <h1>I learnt Git and Github.</h1>
+        <h1>I learnt Git and GitHub.</h1>
       </AboutJourneyDescription>
     </AboutJourneyItem>
   );

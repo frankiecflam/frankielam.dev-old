@@ -11,7 +11,7 @@ const JourneyHiddenGems = ({ toRight }) => {
       <AboutJourneyIcon>
         <BuildIcon />
       </AboutJourneyIcon>
-      <AboutJourneyDescription date="may 2022">
+      <AboutJourneyDescription date="jun 2022">
         <h1>
           I built a social media web app —{" "}
           <AboutJourneyProjectLink href={HiddenGemsURL}>
