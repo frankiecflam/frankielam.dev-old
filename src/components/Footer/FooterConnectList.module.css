@@ -1,0 +1,14 @@
+.list {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  row-gap: 1rem;
+  color: var(--font-color-light-1);
+  align-items: center;
+}
+
+@media only screen and (min-width: 62em) {
+  .list {
+    align-items: stretch;
+  }
+}

@@ -1,0 +1,37 @@
+.item {
+  font-size: var(--font-size-3);
+}
+
+.itemLink:link,
+.itemLink:visited {
+  letter-spacing: 0.025em;
+  position: relative;
+  transition: all 0.3s ease-out;
+}
+
+.itemLink::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 0%;
+  height: 0.3rem;
+  background-color: currentColor;
+  transition: all 0.3s ease-out;
+}
+
+.itemLink:hover,
+.itemLink:active {
+  color: var(--font-color-main);
+}
+
+.itemLink:hover::after,
+.itemLink:active::after {
+  width: 100%;
+}
+
+@media only screen and (min-width: 62em) {
+  .item {
+    padding-left: 25%;
+  }
+}

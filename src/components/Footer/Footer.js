@@ -1,7 +1,7 @@
 import styles from "./Footer.module.css";
 import Container from "../UI/Container";
 import FooterMessage from "./FooterMessage";
-import FooterConnect from "./FooterConntect";
+import FooterConnect from "./FooterConnect";
 
 const Footer = () => {
   return (
