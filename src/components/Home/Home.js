@@ -14,7 +14,7 @@ const Hero = () => {
         <h2 className={styles.subHeading}>I build simple things with code.</h2>
         <p className={styles.description}>
           I am a self-taught web developer based in London. I enjoy building
-          things that live on the internet through curioristy and perservance.
+          things that live on the internet through curiosity and perseverance.
         </p>
         <div className={styles.cta}>
           <Link

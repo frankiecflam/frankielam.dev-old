@@ -1,1 +1,1 @@
-# Frankie Lam — Font-end developer
+# Frankie Lam — Front end developer

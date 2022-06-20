@@ -14,15 +14,15 @@ const AboutStoryContent = () => {
         I’m Frankie, a self-taught web developer based in London. My journey as
         a self-taught programmer started in May 2021 when I decided to take back
         control of my life from being in a rut and directionless. It turns out
-        choosing to embark on this joruney is one of the best decisions I have
+        choosing to embark on this journey is one of the best decisions I have
         made in my life. I am glad that I had the courage to make that decision.
       </p>
 
       <p className={styles.paragraph}>
-        Before I started this joruney, I never thought of building websites and
+        Before I started this journey, I never thought of building websites and
         applications. I never felt interested in coding. Code seemed strange to
         me as if they were just a bunch of random characters that work together
-        as a whole on computer. But, I was wrong. From this joruney, I have
+        as a whole on computer. But, I was wrong. From this journey, I have
         realised programming is never about the code itself. It is all about
         problem-solving — how things work the way they do.
       </p>
@@ -30,8 +30,8 @@ const AboutStoryContent = () => {
       <p className={styles.paragraph}>
         Since I was a kid, I have always been curious about a lot of things that
         happen around me. I have always got something new to learn to feed my
-        curiorsity. I have never felt tired of learning because there is always
-        a tremendous amount of joy within the process.
+        curiosity. I have never felt tired of learning because there is always a
+        tremendous amount of joy within the process.
       </p>
 
       <p className={styles.paragraph}>
