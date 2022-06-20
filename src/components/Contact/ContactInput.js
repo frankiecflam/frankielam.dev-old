@@ -4,6 +4,7 @@ import { motion } from "framer-motion";
 
 const ContactInput = ({
   type,
+  name,
   placeholder,
   textarea,
   inputState,
@@ -47,6 +48,7 @@ const ContactInput = ({
       {!textarea && (
         <input
           id={placeholder}
+          name={name}
           value={inputState}
           type={type}
           className={styles.input}
@@ -59,6 +61,7 @@ const ContactInput = ({
       {textarea && (
         <textarea
           id={placeholder}
+          name={name}
           value={inputState}
           type={type}
           rows="10"

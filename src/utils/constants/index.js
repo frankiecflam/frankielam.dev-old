@@ -17,7 +17,7 @@ export const BookmarkGitHubURL =
   "https://github.com/frankiecflam/bookmark-landing-page";
 
 // Email
-export const Email = "frankiechunfai@gmail.com";
+export const Email = "csl.frankie@gmail.com";
 export const Facebook = "https://www.facebook.com/frankiecflam/";
 export const Instagram = "https://www.instagram.com/frankie___lam/";
 export const Github = "https://github.com/frankiecflam";
