@@ -8,7 +8,7 @@ const HeaderLogo = () => {
     <Link
       to="home"
       smooth={true}
-      hashSpy={true}
+      hashSpy={false}
       duration={ScrollIntoViewDuration}
       className={styles.navBrand}
     >

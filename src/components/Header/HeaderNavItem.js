@@ -11,7 +11,7 @@ const HeaderNavItem = ({ name, location, onClick, mobileNavActive }) => {
       <Link
         to={location}
         smooth={true}
-        hashSpy={true}
+        hashSpy={name === "home" ? false : true}
         spy={true}
         duration={ScrollIntoViewDuration}
         className={styles.navLink}
