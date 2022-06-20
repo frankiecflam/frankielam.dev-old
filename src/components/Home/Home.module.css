@@ -142,7 +142,7 @@
     height: 0.5rem;
     background-color: var(--font-color-light-1);
     border-radius: 100%;
-    animation: upDown 1.75s infinite ease-out;
+    animation: upDown 1.5s infinite ease-out;
   }
 
   @keyframes upDown {
