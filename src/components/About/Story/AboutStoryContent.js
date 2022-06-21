@@ -53,7 +53,7 @@ const AboutStoryContent = () => {
       </p>
 
       <p className={styles.paragraph}>
-        Because of programming, I feel happy living my life everyday.
+        Because of programming, I feel happy living my life every day.
       </p>
     </motion.div>
   );
