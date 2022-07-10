@@ -35,10 +35,13 @@ const AboutStoryContent = () => {
       </p>
 
       <p className={styles.paragraph}>
-        But, as I grew older, I kind of felt in a trap of thinking that career
-        should be chosen based on money, not interest. Because of this toxic
-        thinking, I settled for jobs that pay well, but never present joy. I
-        felt miserable living my life in this way, and my mental health took a
+        But, as I grew order and started thinking about what career I should
+        pursue, I felt immensely difficult finding one that both presents joy
+        and opportunities for continuous learning. It seemed to me that there
+        was no such thing as a right career, and I started falling into a trap
+        of thinking that career should never be chosen based on interests.
+        Because of this toxic thinking, I settled for jobs that I didn’t enjoy.
+        I felt miserable living my life in this way, and my mental health took a
         deep dive because of it.
       </p>
 
