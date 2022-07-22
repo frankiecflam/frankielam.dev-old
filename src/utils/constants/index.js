@@ -5,6 +5,7 @@ export const SunnysideURL = "https://frankie-sunnyside.netlify.app/";
 export const ManageURL = "https://frankie-manage.netlify.app/";
 export const ZestyBurgersURL = "https://zestyburgers.netlify.app/";
 export const HiddenGemsURL = "https://hiddengems.vercel.app/";
+export const NutsLabURL = "https://nutslab.vercel.app/";
 
 // GitHub URLs
 export const HiddenGemsGitHubURL =
@@ -15,6 +16,7 @@ export const ManageGitHubURL =
   "https://github.com/frankiecflam/manage-landing-page";
 export const BookmarkGitHubURL =
   "https://github.com/frankiecflam/bookmark-landing-page";
+export const NutsLabGitHubURL = "https://github.com/frankiecflam/nuts-lab";
 
 // Email
 export const Email = "cfl.frankie@gmail.com";

@@ -10,3 +10,4 @@ export { default as JourneyBootstrap } from "./JourneyBootstrap";
 export { default as JourneyReactNext } from "./JourneyReactNext";
 export { default as JourneyZesty } from "./JourneyZesty";
 export { default as JourneyHiddenGems } from "./JourneyHiddenGems";
+export { default as JourneyNutsLab } from "./JourneyNutsLab";

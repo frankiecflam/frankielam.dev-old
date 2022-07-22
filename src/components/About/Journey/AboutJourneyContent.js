@@ -12,6 +12,7 @@ import {
   JourneyZesty,
   JourneyHiddenGems,
   JourneyContinue,
+  JourneyNutsLab,
 } from "./JourneyItems/index";
 
 const AboutJourneyContent = () => {
@@ -29,6 +30,7 @@ const AboutJourneyContent = () => {
         <JourneyReactNext toRight={false} />
         <JourneyZesty toRight={true} />
         <JourneyHiddenGems toRight={false} />
+        <JourneyNutsLab toRight={true} />
       </div>
       <JourneyContinue />
     </div>
