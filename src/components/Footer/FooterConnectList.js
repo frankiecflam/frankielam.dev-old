@@ -5,6 +5,7 @@ import {
   Facebook,
   Instagram,
   Github,
+  Twitter,
 } from "../../utils/constants/index";
 
 const FooterConnectList = () => {
@@ -12,6 +13,7 @@ const FooterConnectList = () => {
     <ul className={styles.list}>
       <FooterConnectItem name="Email" type="email" href={Email} />
       <FooterConnectItem name="GitHub" type="social" href={Github} />
+      <FooterConnectItem name="Twitter" type="social" href={Twitter} />
       <FooterConnectItem name="Facebook" type="social" href={Facebook} />
       <FooterConnectItem name="Instagram" type="social" href={Instagram} />
     </ul>

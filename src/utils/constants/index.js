@@ -18,11 +18,12 @@ export const BookmarkGitHubURL =
   "https://github.com/frankiecflam/bookmark-landing-page";
 export const NutsLabGitHubURL = "https://github.com/frankiecflam/nuts-lab";
 
-// Email
+// Social
 export const Email = "cfl.frankie@gmail.com";
 export const Facebook = "https://www.facebook.com/frankiecflam/";
 export const Instagram = "https://www.instagram.com/frankie___lam/";
 export const Github = "https://github.com/frankiecflam";
+export const Twitter = "https://twitter.com/frankiecflam";
 
 // Scroll
 export const ScrollIntoViewDuration = 800;
