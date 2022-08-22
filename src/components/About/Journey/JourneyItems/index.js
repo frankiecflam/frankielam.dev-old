@@ -11,3 +11,4 @@ export { default as JourneyReactNext } from "./JourneyReactNext";
 export { default as JourneyZesty } from "./JourneyZesty";
 export { default as JourneyHiddenGems } from "./JourneyHiddenGems";
 export { default as JourneyNutsLab } from "./JourneyNutsLab";
+export { default as JourneyJest } from "./JourneyJest";
