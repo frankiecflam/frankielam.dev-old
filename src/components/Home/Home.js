@@ -31,7 +31,7 @@ const Hero = () => {
           animate={{ y: 0, opacity: 1 }}
           transition={{ duration: 0.6, delay: 1.4 }}
         >
-          I am a self-taught front end developer based in London. I enjoy building
+          I am a self-taught frontend developer based in London. I enjoy building
           things that live on the internet through curiosity and perseverance.
         </motion.p>
         <motion.div
