@@ -11,3 +11,4 @@ export { IoIosBuild as BuildIcon } from "react-icons/io";
 export { AiOutlineExclamationCircle as ExclamationMarkIcon } from "react-icons/ai";
 export { SiTypescript as TSIcon } from "react-icons/si";
 export { MdOutlineFactCheck as TestIcon } from "react-icons/md";
+export { GiStoneCrafting as RebuildIcon } from "react-icons/gi";
