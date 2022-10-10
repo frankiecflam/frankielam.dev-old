@@ -3,7 +3,7 @@ import { TestIcon } from "../../../../assets/Icons";
 import AboutJourneyIcon from "../AboutJourneyIcon";
 import AboutJourneyDescription from "../AboutJourneyDescription";
 
-const JourneyNutsLab = ({ toRight }) => {
+const JourneyJest = ({ toRight }) => {
   return (
     <AboutJourneyItem toRight={toRight}>
       <AboutJourneyIcon>
@@ -16,4 +16,4 @@ const JourneyNutsLab = ({ toRight }) => {
   );
 };
 
-export default JourneyNutsLab;
+export default JourneyJest;
