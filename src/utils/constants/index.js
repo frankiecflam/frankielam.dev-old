@@ -5,11 +5,14 @@ export const SunnysideURL = "https://frankie-sunnyside.netlify.app/";
 export const ManageURL = "https://frankie-manage.netlify.app/";
 export const ZestyBurgersURL = "https://zestyburgers.netlify.app/";
 export const HiddenGemsURL = "https://hiddengems.vercel.app/";
+export const HiddenGemsTSURL = "https://hiddengems-ts.vercel.app/";
 export const NutsLabURL = "https://nutslab.vercel.app/";
 
 // GitHub URLs
 export const HiddenGemsGitHubURL =
   "https://github.com/frankiecflam/next-hidden-gems";
+export const HiddenGemsTSGitHubURL =
+  "https://github.com/frankiecflam/next-hidden-gems-ts";
 export const ZestyBurgersGitHubURL =
   "https://github.com/frankiecflam/react-zesty-burgers";
 export const ManageGitHubURL =

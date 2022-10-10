@@ -10,6 +10,7 @@ const ProjectItem = ({
   websiteURL,
   imageSrc,
   builtWith,
+  rebuild,
 }) => {
   return (
     <motion.li
@@ -40,7 +41,9 @@ const ProjectItem = ({
       <footer className={styles.footer}>
         <div className={styles.build}>
           <BuildIcon className={styles.buildIcon} />
-          <p className={styles.buildText}>Built with {builtWith}.</p>
+          <p className={styles.buildText}>
+            {rebuild ? "Rebuilt" : "Built"} with {builtWith}.
+          </p>
         </div>
       </footer>
     </motion.li>
