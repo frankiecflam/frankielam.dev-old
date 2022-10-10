@@ -12,3 +12,4 @@ export { default as JourneyZesty } from "./JourneyZesty";
 export { default as JourneyHiddenGems } from "./JourneyHiddenGems";
 export { default as JourneyNutsLab } from "./JourneyNutsLab";
 export { default as JourneyJest } from "./JourneyJest";
+export { default as JourneyRebuildHiddenGems } from "./JourneyRebuildHiddenGems";
