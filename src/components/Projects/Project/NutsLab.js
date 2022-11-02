@@ -10,7 +10,7 @@ const NutsLab = () => {
       title="Nuts Lab — e-commerce app"
       githubURL={NutsLabGitHubURL}
       websiteURL={NutsLabURL}
-      builtWith="React, NextJS, TypeScript and Firebase"
+      builtWith="React, NextJS, TypeScript, React Query, Firebase, CSS and Git"
     />
   );
 };

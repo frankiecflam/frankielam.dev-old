@@ -13,8 +13,7 @@ const HiddenGemsTS = () => {
       title="Hidden Gems — social media app"
       githubURL={HiddenGemsTSGitHubURL}
       websiteURL={HiddenGemsTSURL}
-      builtWith="React, NextJS, TypeScript, React Query and Firebase"
-      rebuild={true}
+      builtWith="React, NextJS, TypeScript, React Query, Firebase, CSS and Git"
     />
   );
 };

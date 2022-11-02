@@ -13,7 +13,7 @@ const ZestyBurgers = () => {
       title="Zesty Burgers — food ordering app"
       githubURL={ZestyBurgersGitHubURL}
       websiteURL={ZestyBurgersURL}
-      builtWith="React and Firebase"
+      builtWith="React, Redux, React Router, React Query, Firebase, CSS, Jest and Git"
     />
   );
 };
