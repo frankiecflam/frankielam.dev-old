@@ -15,6 +15,7 @@ import {
   JourneyNutsLab,
   JourneyJest,
   JourneyRebuildHiddenGems,
+  JourneyNodeRestGraph,
 } from "./JourneyItems/index";
 
 const AboutJourneyContent = () => {
@@ -35,6 +36,7 @@ const AboutJourneyContent = () => {
         <JourneyNutsLab toRight={true} />
         <JourneyJest toRight={false} />
         <JourneyRebuildHiddenGems toRight={true} />
+        <JourneyNodeRestGraph toRight={false} />
       </div>
       <JourneyContinue />
     </div>

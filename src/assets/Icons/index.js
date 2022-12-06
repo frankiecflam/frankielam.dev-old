@@ -12,3 +12,4 @@ export { AiOutlineExclamationCircle as ExclamationMarkIcon } from "react-icons/a
 export { SiTypescript as TSIcon } from "react-icons/si";
 export { MdOutlineFactCheck as TestIcon } from "react-icons/md";
 export { GiStoneCrafting as RebuildIcon } from "react-icons/gi";
+export { GrServers as ServerIcon } from "react-icons/gr";
