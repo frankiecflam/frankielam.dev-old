@@ -14,3 +14,4 @@ export { default as JourneyNutsLab } from "./JourneyNutsLab";
 export { default as JourneyJest } from "./JourneyJest";
 export { default as JourneyRebuildHiddenGems } from "./JourneyRebuildHiddenGems";
 export { default as JourneyNodeRestGraph } from "./JourneyNodeRestGraph";
+export { default as JourneyTailwind } from "./JourneyTailwind";
