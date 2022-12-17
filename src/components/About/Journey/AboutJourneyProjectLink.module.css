@@ -1,3 +1,7 @@
+.projectLink {
+  display: inline-block;
+}
+
 .projectLink:link,
 .projectLink:visited {
   color: var(--font-color-light-3);
