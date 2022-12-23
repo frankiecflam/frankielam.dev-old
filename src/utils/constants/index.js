@@ -8,6 +8,8 @@ export const HiddenGemsURL = "https://hiddengems.vercel.app/";
 export const HiddenGemsTSURL = "https://hiddengems-ts.vercel.app/";
 export const NutsLabURL = "https://nutslab.vercel.app/";
 export const ManageTailwindURL = "https://frankie-manage-tailwind.vercel.app/";
+export const MetaverseTailwindURL =
+  "https://frankie-metaverse-tailwind.vercel.app/";
 
 // GitHub URLs
 export const HiddenGemsGitHubURL =

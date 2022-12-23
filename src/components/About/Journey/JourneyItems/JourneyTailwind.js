@@ -3,7 +3,10 @@ import { TailwindIcon } from "../../../../assets/Icons";
 import AboutJourneyIcon from "../AboutJourneyIcon";
 import AboutJourneyDescription from "../AboutJourneyDescription";
 import AboutJourneyProjectLink from "../AboutJourneyProjectLink";
-import { ManageTailwindURL } from "../../../../utils/constants";
+import {
+  ManageTailwindURL,
+  MetaverseTailwindURL,
+} from "../../../../utils/constants";
 
 const JourneyTailwind = ({ toRight }) => {
   return (
@@ -16,6 +19,10 @@ const JourneyTailwind = ({ toRight }) => {
           I learnt Tailwind CSS and built a landing page —{" "}
           <AboutJourneyProjectLink href={ManageTailwindURL}>
             Manage
+          </AboutJourneyProjectLink>{" "}
+          &{" "}
+          <AboutJourneyProjectLink href={MetaverseTailwindURL}>
+            Metaverse
           </AboutJourneyProjectLink>{" "}
           , with it.
         </h1>
