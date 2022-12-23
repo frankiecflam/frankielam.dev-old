@@ -11,8 +11,10 @@ const AboutSkillsetContent = () => {
       <AboutSkillsetItem name="NextJS" />
       <AboutSkillsetItem name="Bootstrap 5" />
       <AboutSkillsetItem name="TypeScript" />
-      <AboutSkillsetItem name="Jest" />
+      <AboutSkillsetItem name="Tailwind CSS" />
       <AboutSkillsetItem name="Git and GitHub" />
+      <AboutSkillsetItem name="Jest" />
+      <AboutSkillsetItem name="GraphQL" />
     </ul>
   );
 };
