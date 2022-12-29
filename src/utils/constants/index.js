@@ -27,7 +27,7 @@ export const NutsLabGitHubURL = "https://github.com/frankiecflam/nuts-lab";
 // Social
 export const Email = "cfl.frankie@gmail.com";
 export const Facebook = "https://www.facebook.com/frankiecflam/";
-export const Instagram = "https://www.instagram.com/frankie___lam/";
+export const Instagram = "https://www.instagram.com/_frankiecf/";
 export const Github = "https://github.com/frankiecflam";
 export const Twitter = "https://twitter.com/frankiecflam";
 
