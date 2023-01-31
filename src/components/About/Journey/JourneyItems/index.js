@@ -15,3 +15,4 @@ export { default as JourneyJest } from "./JourneyJest";
 export { default as JourneyRebuildHiddenGems } from "./JourneyRebuildHiddenGems";
 export { default as JourneyNodeRestGraph } from "./JourneyNodeRestGraph";
 export { default as JourneyTailwind } from "./JourneyTailwind";
+export { default as JourneyJan2023 } from "./JourneyJan2023";
