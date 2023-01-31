@@ -11,7 +11,7 @@ const JourneyJan2023 = ({ toRight }) => {
       </AboutJourneyIcon>
       <AboutJourneyDescription date="jan 2023">
         <h1>
-          I learnt design patterns of React, Authentication & Authorisation,
+          I learnt design patterns of React, authentication & authorisation,
           SQL, Prisma, TDD and web accessibility.
         </h1>
       </AboutJourneyDescription>
