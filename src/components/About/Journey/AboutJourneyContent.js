@@ -17,6 +17,7 @@ import {
   JourneyRebuildHiddenGems,
   JourneyNodeRestGraph,
   JourneyTailwind,
+  JourneyJan2023,
 } from "./JourneyItems/index";
 
 const AboutJourneyContent = () => {
@@ -39,6 +40,7 @@ const AboutJourneyContent = () => {
         <JourneyRebuildHiddenGems toRight={true} />
         <JourneyNodeRestGraph toRight={false} />
         <JourneyTailwind toRight={true} />
+        <JourneyJan2023 toRight={false} />
       </div>
       <JourneyContinue />
     </div>
